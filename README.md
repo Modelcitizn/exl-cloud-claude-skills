@@ -8,7 +8,7 @@ Curated AI skill files for the EXL Cloud platform, built for use with Claude AI.
 
 ## Overview
 
-This repository contains a curated library of 19 Claude AI skills, purpose-built for EXL Cloud workbooks. Skills are small instruction files that tell Claude exactly how to help inside a specific workbook or task — no setup, no technical knowledge required.
+This repository contains a curated library of 20 Claude AI skills, purpose-built for EXL Cloud workbooks. Skills are small instruction files that tell Claude exactly how to help inside a specific workbook or task — no setup, no technical knowledge required.
 
 ---
 
@@ -19,7 +19,7 @@ This repository contains a curated library of 19 Claude AI skills, purpose-built
 
 ---
 
-## The 19 Skills
+## The 20 Skills
 
 Skills are organised into four tiers based on plan level.
 
@@ -65,6 +65,7 @@ Advanced skills for specialized analysis, reporting, and scenario planning acros
 | 17 | [Human Capital Report Commentary](https://github.com/kerrykolo/exl-cloud-ai-skills/blob/main/EXL%20Cloud%20Skill/TIER%204%20OTHER%20SKILLS/Reference/SKILL%2017%20HUMAN%20CAPITAL%20REPORT%20COMMENTARY.md) | Builds a formula-driven Human Capital Analysis executive summary from EXL Cloud payroll data |
 | 18 | [Invoice & Bill Pull Analysis](https://github.com/kerrykolo/exl-cloud-ai-skills/blob/main/EXL%20Cloud%20Skill/TIER%204%20OTHER%20SKILLS/Reference/SKILL%2018%20INVOICE%20BILL%20PULL%20ANALYSIS.md) | Builds a comprehensive 4-sheet analysis suite from any Xero-sourced Invoice & Credit Note data pull workbook |
 | 19 | [Performance Report Dashboard Commentary](https://github.com/kerrykolo/exl-cloud-ai-skills/blob/main/EXL%20Cloud%20Skill/TIER%204%20OTHER%20SKILLS/Reference/SKILL%2019%20PERFORMANCE%20REPORT%20COMMENTARY.md) | Reads P&L and summary data and writes CF4-level business analysis commentary into dashboard text boxes |
+| 20 | [Assumption & Output Reasonableness Check](https://github.com/kerrykolo/exl-cloud-ai-skills/blob/main/EXL%20Cloud%20Skill/TIER%204%20OTHER%20SKILLS/Reference/SKILL%2020%20ASSUMPTION%20AND%20OUTPUT%20REASONABLENESS%20CHECK.md) | Flags assumptions and outputs that fall outside reasonable ranges, covering trend sanity, cash and liquidity, margin bands, and scenario ordering |
 
 ---
 

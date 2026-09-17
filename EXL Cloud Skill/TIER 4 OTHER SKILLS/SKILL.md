@@ -1,6 +1,6 @@
 ---
 name: exl-cloud-tier-4
-description: "Router for EXL Cloud Tier 4 governance, analysis, delivery, and specialist workbook applications. Two sub-categories: (9–15) Core Governance & Analysis; (16–19) Other Skills / Specialist Workbook Applications. Reference by number e.g. 'use skill 9', 'run skill 16', 'skill 19'. Trigger phrases cover all 19 skills. Always load the correct Reference file before proceeding — never guess."
+description: "Router for EXL Cloud Tier 4 governance, analysis, delivery, and specialist workbook applications. Two sub-categories: (9–15, 20) Core Governance & Analysis; (16–19) Other Skills / Specialist Workbook Applications. Reference by number e.g. 'use skill 9', 'run skill 16', 'skill 20'. Trigger phrases cover all 20 skills. Always load the correct Reference file before proceeding — never guess."
 ---
 
 # EXL Cloud Tier 4 — Other Skills Router
@@ -24,6 +24,7 @@ description: "Router for EXL Cloud Tier 4 governance, analysis, delivery, and sp
 | 17 | Human Capital Report Commentary | `SKILL_17_HUMAN_CAPITAL_REPORT_COMMENTARY.md` | Building an HC executive summary from payroll data in an EXL Cloud model |
 | 18 | Invoice & Bill Pull Analysis | `SKILL_18_INVOICE_BILL_PULL_ANALYSIS.md` | Analysing Xero invoice/credit note data pull workbooks (4-sheet suite) |
 | 19 | Performance Report Dashboard Commentary | `SKILL_19_PERFORMANCE_REPORT_COMMENTARY.md` | Writing dashboard commentary for EXL Cloud Performance Reports workbooks |
+| 20 | Assumption & Output Reasonableness Check | `SKILL_20_ASSUMPTION_AND_OUTPUT_REASONABLENESS_CHECK.md` | Sanity-checking whether model assumptions and the outputs they produce sit in reasonable ranges |
 
 ---
 
@@ -42,6 +43,7 @@ description: "Router for EXL Cloud Tier 4 governance, analysis, delivery, and sp
 | "build HC analysis", "human capital report", "payroll executive summary", "workforce commentary", "HC commentary", "salary data analysis", "headcount analysis", "workforce snapshot", "staffing cost summary", "build the HC exec summary", "analyse the payroll data" | `SKILL_17_HUMAN_CAPITAL_REPORT_COMMENTARY.md` |
 | "analyse the invoice pull", "build the bill analysis", "invoice and credit note analysis", "what does this Xero pull show", "build the exec summary for this data", "analyse the billing data", "invoice pull dashboard", "break down the invoices" | `SKILL_18_INVOICE_BILL_PULL_ANALYSIS.md` |
 | "write dashboard commentary", "populate the commentary text boxes", "fill in the dashboard text boxes", "write CF4 commentary for the dashboards", "update the actuals/revenue/expense/EBITDA/combo dashboard commentary", "analyse the P&L and write commentary" | `SKILL_19_PERFORMANCE_REPORT_COMMENTARY.md` |
+| "reasonableness check", "are these assumptions sensible", "sanity-check the model", "flag anything wildly out of range", "does the output make sense", "check the growth rates", "is this forecast plausible", "does the worst case actually stress cash" | `SKILL_20_ASSUMPTION_AND_OUTPUT_REASONABLENESS_CHECK.md` |
 
 ---
 
@@ -82,8 +84,13 @@ What is the task?
 ├── Xero invoice/credit note data pull needing analysis & dashboarding?
 │    └── LOAD: SKILL_18_INVOICE_BILL_PULL_ANALYSIS.md
 │
-└── EXL Cloud Performance Reports workbook needing dashboard commentary?
-     └── LOAD: SKILL_19_PERFORMANCE_REPORT_COMMENTARY.md
+├── EXL Cloud Performance Reports workbook needing dashboard commentary?
+│    └── LOAD: SKILL_19_PERFORMANCE_REPORT_COMMENTARY.md
+│
+└── Sense-check whether assumptions and/or outputs are plausible?
+     └── LOAD: SKILL_20_ASSUMPTION_AND_OUTPUT_REASONABLENESS_CHECK.md
+          └── Want every input catalogued instead? → use skill-9
+          └── Want formula / BS balance errors instead? → use skill-10
 ```
 
 ---
@@ -100,14 +107,17 @@ What is the task?
 | HC analysis standalone | `skill-17` (standalone) → Feeds into Tier 3 skill-7 (board paper) if needed |
 | Invoice analysis standalone | `skill-18` (4-sheet suite) → Can feed into Tier 3 for narrative if needed |
 | Dashboard commentary only | `skill-19` (text boxes only) → Works within Performance Reports workbook |
+| Reasonableness review of a finished model | `skill-20` (assumptions + outputs in one sheet) → Fix flagged drivers, then re-run `skill-20` to refresh against unchanged bounds |
+| Full model review package | `skill-10` (integrity) → `skill-20` (plausibility) → `skill-9` (full input register, if a complete catalogue is also needed) |
 
 ---
 
 ## Notes
 
-- **Skills 9–15**: Generic governance, analysis, and delivery tasks — applicable to any workbook type
+- **Skills 9–15 and 20**: Generic governance, analysis, and review tasks — applicable to any workbook type (skill 20 was added after 19, so it sits outside the original number block but belongs to this group)
 - **Skills 16–19**: Domain and workbook-specific — each tied to a particular workbook structure or data source
 - **Recommended governance sequence**: 9 → 10 → 11 → 14 for a full governance package
 - **Skills 16–19 execution**: Each skill runs independently and is workbook-specific
 - **Cross-tier flow**: Tier 4 outputs (especially skills 12, 13, 16) feed into Tier 3 for narrative assembly
-- **Skill Independence**: Skills 9, 10, 11, 14 can run in any order; Skills 16–19 are independent of each other
+- **Skill Independence**: Skills 9, 10, 11, 14, 20 can run in any order; Skills 16–19 are independent of each other
+- **Skills 9, 10 and 20 are distinct, not overlapping**: 9 catalogues *every* input, 10 tests arithmetic and structural *correctness*, 20 tests whether the numbers are *plausible*. A model can pass 10 completely and still fail 20
