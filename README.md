@@ -2,7 +2,7 @@
 
 Curated AI skill files for the EXL Cloud platform, built for use with Claude AI.
 
-[![Sign up for EXL Cloud](https://img.shields.io/badge/Sign%20up-EXL%20Cloud-375623?style=for-the-badge)](https://exlcloud.chargebee.com/hosted_pages/checkout?subscription_items%5Bitem_price_id%5D%5B0%5D=Xero-Advanced-Content-Plan-AUD-Monthly&subscription_items%5Bquantity%5D%5B0%5D=1) [![What's changed in Gen 2](https://img.shields.io/badge/What's%20changed-Gen%202-4a90d9?style=for-the-badge)](https://exlcloud.io/gen2/)
+[![Sign up for EXL Cloud](https://img.shields.io/badge/Sign%20up-EXL%20Cloud-375623?style=for-the-badge)](https://exlcloud.io/pricing/) [![What's changed in Gen 2](https://img.shields.io/badge/What's%20changed-Gen%202-4a90d9?style=for-the-badge)](https://exlcloud.io/gen2/)
 
 ---
 
