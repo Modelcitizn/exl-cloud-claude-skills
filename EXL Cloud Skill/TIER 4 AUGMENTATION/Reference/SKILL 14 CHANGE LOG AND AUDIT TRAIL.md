@@ -1,5 +1,5 @@
 ---
-name: Skill-14-exl-cloud-change-log-audit-trail
+name: skill-14-exl-cloud-change-log-audit-trail
 description: "Add Change Log and Claude Log sheets. Use when the user says 'add change log', 'add audit trail', 'track changes', 'version history', 'add governance sheets', 'claude log', 'AI audit trail', 'model governance', or invokes /change-log-audit-trail. Creates structured change tracking sheets. Independent of other skills. Do NOT use for model building, validation, or commentary."
 ---
 

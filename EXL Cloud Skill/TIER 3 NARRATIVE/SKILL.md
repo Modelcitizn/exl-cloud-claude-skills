@@ -13,9 +13,9 @@ Router for all narrative and reporting output tasks. Identify the task, load the
 
 | # | Skill | File | Use When |
 |---|-------|------|----------|
-| 6 | Monthly Commentary Generator | `Reference/skill-6-exl-cloud-monthly-commentary-generator.md` | Writing P&L management narrative from actuals vs budget |
-| 7 | Board Paper Drafter | `Reference/skill-7-exl-cloud-board-paper-drafter.md` | Assembling a complete board/management report from sibling skill outputs |
-| 8 | Cash Flow Narrative | `Reference/skill-8-exl-cloud-cash-flow-narrative.md` | Writing narrative for operating, investing, and financing cash flows |
+| 6 | Monthly Commentary Generator | `Reference/SKILL 6 MONTHLY COMMENTARY GENERATOR.md` | Writing P&L management narrative from actuals vs budget |
+| 7 | Board Paper Drafter | `Reference/SKILL 7 BOARD PAPER DRAFTER.md` | Assembling a complete board/management report from sibling skill outputs |
+| 8 | Cash Flow Narrative | `Reference/SKILL 8 CASH FLOW NARRATIVE.md` | Writing narrative for operating, investing, and financing cash flows |
 
 ---
 
@@ -25,9 +25,9 @@ Router for all narrative and reporting output tasks. Identify the task, load the
 
 | Task | Load |
 |------|------|
-| "write commentary", "monthly commentary", "explain the P&L", "management narrative", "write up the month", "commentary for the board", "explain the variances", "financial narrative" | `Reference/skill-6-exl-cloud-monthly-commentary-generator.md` |
-| "draft the board paper", "board report", "prepare board pack", "management report for the board", "board meeting paper", "executive summary for board" | `Reference/skill-7-exl-cloud-board-paper-drafter.md` |
-| "explain cash flow", "cash flow commentary", "cash narrative", "what happened to cash", "cash position summary", "explain the cash movements", "why did cash change" | `Reference/skill-8-exl-cloud-cash-flow-narrative.md` |
+| "write commentary", "monthly commentary", "explain the P&L", "management narrative", "write up the month", "commentary for the board", "explain the variances", "financial narrative" | `Reference/SKILL 6 MONTHLY COMMENTARY GENERATOR.md` |
+| "draft the board paper", "board report", "prepare board pack", "management report for the board", "board meeting paper", "executive summary for board" | `Reference/SKILL 7 BOARD PAPER DRAFTER.md` |
+| "explain cash flow", "cash flow commentary", "cash narrative", "what happened to cash", "cash position summary", "explain the cash movements", "why did cash change" | `Reference/SKILL 8 CASH FLOW NARRATIVE.md` |
 
 ### Multi-Skill Tasks (Load Order Matters)
 
@@ -44,13 +44,13 @@ Router for all narrative and reporting output tasks. Identify the task, load the
 What is the task?
 │
 ├── Writing P&L / management commentary?
-│    └── VIEW: Reference/skill-6-exl-cloud-monthly-commentary-generator.md
+│    └── VIEW: Reference/SKILL 6 MONTHLY COMMENTARY GENERATOR.md
 │
 ├── Writing cash flow commentary?
-│    └── VIEW: Reference/skill-8-exl-cloud-cash-flow-narrative.md
+│    └── VIEW: Reference/SKILL 8 CASH FLOW NARRATIVE.md
 │
 ├── Assembling a board or management report?
-│    └── VIEW: Reference/skill-7-exl-cloud-board-paper-drafter.md
+│    └── VIEW: Reference/SKILL 7 BOARD PAPER DRAFTER.md
 │         (requires skill-6 and skill-8 outputs to be ready first)
 │
 └── Full narrative package (P&L + cash + board paper)?

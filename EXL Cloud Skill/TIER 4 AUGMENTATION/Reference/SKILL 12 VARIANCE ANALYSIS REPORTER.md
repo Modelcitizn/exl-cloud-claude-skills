@@ -1,5 +1,5 @@
 ---
-name: Skill-12-exl-cloud-variance-analysis-reporter
+name: skill-12-exl-cloud-variance-analysis-reporter
 description: "Build variance analysis comparing actuals to budget/forecast/prior. Use when the user says 'variance analysis', 'actual vs budget', 'compare to forecast', 'what changed vs last year', 'variance report', 'budget variance', 'explain the variances', or invokes /variance-analysis-reporter. Builds structured comparison sheet with dollar and percentage variances. Feeds into exl-cloud-monthly-commentary-generator and exl-cloud-board-paper-drafter. Do NOT use for commentary text, board paper assembly, or data cleanup."
 ---
 

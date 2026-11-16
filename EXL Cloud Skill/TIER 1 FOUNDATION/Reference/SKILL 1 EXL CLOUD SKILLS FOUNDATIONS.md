@@ -155,7 +155,7 @@ When a user mentions a workbook by name and asks to "enhance" it, use this looku
 | **Weel Expense Model** | 1, 2, 3, 5, 7, 9, 10, 11, 13, 14, 15 | Expense tracking + governance |
 | **Accounts Receivable Model** | 1, 2, 3, 5, 7, 9, 10, 11, 13, 14, 15, 18 | AR-specific + invoice analysis |
 | **Weekly Cash Flow Model** | 1, 2, 3, 6, 7, 8, 9, 10, 13, 14, 15, 16 | Weekly scenarios + cash narrative |
-| **3-Way Driver-based Financial Model** | 1, 2, 3, 5, 7, 9, 10, 11, 13, 14, 15 | Full 3-way + governance |
+| **3-Way Driver-based Financial Model** | 1, 2, 3, 5, 7, 9, 10, 11, 13, 14, 15, 20, 21 | Full 3-way + governance + reasonableness check + best practice benchmark |
 | **Profit & Loss Insights** | 1, 2, 3, 6, 10, 12, 13 | P&L analysis + variance |
 | **Trial Balance Insights** | 1, 2, 3, 4, 10, 12, 13 | TB mapping + variance |
 | **Accounts Receivable Insights** | 1, 2, 3, 10, 12, 13, 18 | AR data + analysis |

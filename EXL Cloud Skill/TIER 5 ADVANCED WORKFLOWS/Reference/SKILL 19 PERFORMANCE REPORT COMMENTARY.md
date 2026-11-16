@@ -11,6 +11,15 @@ Reads P&L and summary data from an EXL Cloud Performance Reports workbook and wr
 
 ---
  
+## When to Use
+ 
+- The workbook is an EXL Cloud Performance Reports workbook with dashboard sheets (Actuals, Combo, Revenue, Expense, EBITDA)
+- The dashboards contain named commentary text boxes (`tbComment*`) that are empty or out of date
+- User asks to write, populate or update the dashboard commentary
+- Do NOT use for P&L pivot analysis, creating new dashboards, or building new charts
+ 
+---
+ 
 ## Context Required
  
 Before writing any commentary, read:

@@ -13,8 +13,8 @@ Router for foundational quality and modelling standards. Identify the task, load
 
 | # | Skill | File | Use When |
 |---|-------|------|----------|
-| 1 | Foundations | `Reference/skill-1-exl-cloud-foundations.md` | Auditing a skill or model for quality, hardcodes, formula discipline, structure |
-| 2 | Best Practice Modelling | `Reference/skill-2-exl-cloud-best-practice-modelling.md` | Formatting, colour coding, number formats, tab structure, EXL Cloud conventions |
+| 1 | Foundations | `Reference/SKILL 1 EXL CLOUD SKILLS FOUNDATIONS.md` | Auditing a skill or model for quality, hardcodes, formula discipline, structure |
+| 2 | Best Practice Modelling | `Reference/SKILL 2 EXL CLOUD BEST PRACTICE FINANCIAL MODELLING.md` | Formatting, colour coding, number formats, tab structure, EXL Cloud conventions |
 
 ---
 
@@ -24,8 +24,8 @@ Router for foundational quality and modelling standards. Identify the task, load
 
 | Task | Load |
 |------|------|
-| "check my skill", "audit this skill", "quality check", "skill audit", "foundations check", "review my model for hardcodes", "check my formulas", "best practice check" | `Reference/skill-1-exl-cloud-foundations.md` |
-| "format my model", "colour code my inputs", "apply modelling best practice", "fix my number formats", "audit model structure", "apply EXL Cloud standards", "blue inputs black formulas", "financial model formatting" | `Reference/skill-2-exl-cloud-best-practice-modelling.md` |
+| "check my skill", "audit this skill", "quality check", "skill audit", "foundations check", "review my model for hardcodes", "check my formulas", "best practice check" | `Reference/SKILL 1 EXL CLOUD SKILLS FOUNDATIONS.md` |
+| "format my model", "colour code my inputs", "apply modelling best practice", "fix my number formats", "audit model structure", "apply EXL Cloud standards", "blue inputs black formulas", "financial model formatting" | `Reference/SKILL 2 EXL CLOUD BEST PRACTICE FINANCIAL MODELLING.md` |
 
 ### Multi-Skill Tasks
 
@@ -41,10 +41,10 @@ Router for foundational quality and modelling standards. Identify the task, load
 What is the task?
 │
 ├── Auditing a skill or model for quality / hardcodes / structure?
-│    └── VIEW: Reference/skill-1-exl-cloud-foundations.md
+│    └── VIEW: Reference/SKILL 1 EXL CLOUD SKILLS FOUNDATIONS.md
 │
 ├── Formatting a model / applying EXL Cloud colour and number conventions?
-│    └── VIEW: Reference/skill-2-exl-cloud-best-practice-modelling.md
+│    └── VIEW: Reference/SKILL 2 EXL CLOUD BEST PRACTICE FINANCIAL MODELLING.md
 │
 └── Both quality audit AND formatting?
      └── VIEW: skill-1 first → then skill-2

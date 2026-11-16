@@ -1,9 +1,9 @@
 ---
-name: skill-16-exl-cloud-weekly-cf-scenario-analysis
+name: skill-16-exl-cloud-weekly-cf-scenario-overlay-builder
 description: "Build and populate scenario overlays for EXL Cloud Weekly Cash Flow models. Use when the user says 'populate the weekly cash flow scenarios', 'build CF scenarios', 'set up the scenario overlay', 'weekly cash flow analysis', 'populate Base/Best/Worst', 'scenario overlay for the weekly model', 'add scenarios to the weekly CF', 'cash flow scenario planning', or invokes /weekly-cf-scenario-analysis. Analyses an EXL Cloud Weekly Cash Flow Scenario Model's actuals, sources P&L from connected peer workbooks, populates 3 scenarios (Base/Best/Worst) in Scenario Overlay using $ Repeat/$ Bullet/$ Spread, builds Executive Summary with scenario comparison and risk flags, adds Validation Checks, Change Log, Claude Log. Do NOT use for monthly P&L commentary, 3-way model building (use exl-cloud-model-builder), or non-EXL-Cloud cash flow models."
 ---
 
-# Weekly Cash Flow Scenario Analysis
+# Weekly Cash Flow Scenario Overlay Builder
 
 Analyses an EXL Cloud Weekly Cash Flow Scenario Model, populates Base/Best/Worst scenario overlays grounded in actual performance data, and builds companion Executive Summary, Validation Checks, Change Log, and Claude Log sheets. All scenario entries are company-agnostic — calibrated from the entity's own actuals and related workbook data, not hardcoded industry assumptions.
 
